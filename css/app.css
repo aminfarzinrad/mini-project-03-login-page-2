@@ -13,6 +13,17 @@ body{
     align-items: center;
     height: 100vh;
 }
+.circle{
+    width: 1000px;
+    height: 1000px;
+    position: fixed;
+    background-image: linear-gradient(to right, #94a3c2, #596888);
+    z-index: -1;
+    border-radius: 100%;
+    left: -9rem;
+    top: 54%;
+    transform: translateY(-38%);    
+}
 .login-page{
     max-width: 1200px;
     width: 81%;

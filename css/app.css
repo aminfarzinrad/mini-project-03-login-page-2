@@ -95,3 +95,14 @@ body{
     object-fit: cover;
     overflow: hidden;
 }
+@media screen and (max-width:800px) {
+    .login-page-right{
+        display: none;
+    }
+    .login-page-left{
+        width: 100%;
+    }
+    .user-form, .btn{
+        width: 80%;
+    }
+}
